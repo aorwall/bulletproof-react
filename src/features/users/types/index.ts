@@ -7,4 +7,5 @@ export type User = {
   role: 'ADMIN' | 'USER';
   teamId: string;
   bio: string;
+  birthdate: Date; // Added birthdate of type Date
 } & BaseEntity;
